@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("/Currency-Converter/img/img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  min-height: 30vh;
+  width: 40vh;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+  margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+  margin: 1rem 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+form input{
+    border: 1px;
+    font-size: 1rem; 
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 5px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+select{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 2px;
+
+}
+
+.select-container img{
+      max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.25rem;
+    border: 1px solid lightgray;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 2px;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;;
+}
+
+
+form button{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 8px;
+    color: black;
+    cursor: pointer;
+}
