@@ -11,28 +11,6 @@ A simple web-based currency converter application that allows users to convert a
 - **Responsive Design**: Styled for a clean and user-friendly interface.
 
 ## Project Structure
-Collecting workspace information
-
-Here is a 
-
-README.md
-
- file for your project:
-
-```markdown
-# Currency Converter
-
-A simple web-based currency converter application that allows users to convert amounts between different currencies using real-time exchange rates.
-
-## Features
-
-- **Real-Time Exchange Rates**: Fetches the latest exchange rates from an API.
-- **Dynamic Dropdowns**: Automatically populates currency options in dropdown menus.
-- **Flag Updates**: Displays country flags dynamically based on the selected currency.
-- **Validation**: Ensures valid input for the amount to be converted.
-- **Responsive Design**: Styled for a clean and user-friendly interface.
-
-## Project Structure
 
 ```
 Currency-Converter/
