@@ -23,7 +23,7 @@ body {
   border-radius: 12px;
   padding: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white
+  color: white;
 }
 
 h2{
@@ -43,7 +43,6 @@ input {
   border: none;
   outline: none;
   border-radius: 0.25rem;
-  color: white;
 }
 
 form input{
@@ -53,6 +52,7 @@ form input{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 5px;
+    color: white;
 }
 
 .dropdown {
@@ -60,6 +60,7 @@ form input{
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0;
+    color: white;
 }
 
 select{
@@ -67,6 +68,7 @@ select{
     border: none;
     outline: none;
     padding-left: 2px;
+    color: black;
 
 }
 
@@ -86,7 +88,7 @@ select{
 }
 
 .msg{
-    margin: 2rem 0 2rem 0;;
+    margin: 2rem 0 2rem 0;
 }
 
 
@@ -97,4 +99,8 @@ form button{
     padding: 8px;
     color: black;
     cursor: pointer;
+}
+
+form button:hover{
+    background: rgba(255, 255, 255, 0.2);
 }
